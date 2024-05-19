@@ -1,0 +1,13 @@
+.pokemon-container {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.arrow {
+    width: 30px;
+    height: 0;
+    border-top: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}

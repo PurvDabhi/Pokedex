@@ -1,0 +1,85 @@
+/* Overall container */
+.sign-in-container {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding:200px;
+    justify-content: center;
+    min-height: 90vh;
+    background-color: black;
+    color: black;
+    background-image: url("../../public/pokeimg1.jpg");
+    background-size: 100%;
+  }
+  
+  /* Background image */
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1; /* Send background behind content */
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+
+  
+  /* Form heading */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields */
+  .input-field {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Login button */
+  .login-button {
+    background-color:#f8db1b;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: #c4ad15;
+  }
